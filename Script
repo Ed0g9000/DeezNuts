@@ -236,7 +236,7 @@ function QuestionChangedLoop() {
                         let Set = GetSetData()
                         let Question = GetQuestion(Set)
                         if (Question == "Error: No question found") {
-                            alert("An error occurred, This should never happen. Please DM East_Arctica#9238 with your quiz link.")
+                            alert("I have no fucking clue what you just did but you shouldnt be reading this")
                         } else {
                             let Answer = GetAnswer(Question)
                             if (Array.isArray(Answer)) {
